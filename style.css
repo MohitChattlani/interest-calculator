@@ -1,0 +1,47 @@
+.div
+{
+	position: absolute;
+	right: 350px;
+	bottom: 80px;
+	width: 25%;
+	height: 600px;
+	background-color: transparent;
+}
+.table2
+{
+	position: absolute;
+	top: 100px;
+	left: 40px;
+	border:.5px solid silver;
+	width: 25%;
+	height: 400px;
+}
+.button
+{
+	color: #4494e5;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: transparent;
+	border-color: transparent;
+	letter-spacing: 1px;
+}
+.button:hover
+{
+	background-color: #e5e5e5;
+}
+#repay
+{
+	position: absolute;
+	top: 50px;
+	left: 40px;
+}
+.light
+{
+	color: silver;
+	opacity: 0.6;
+}
+.button:hover
+{
+	background-color: #e5e5e5;
+	opacity: 0.35;
+}
