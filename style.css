@@ -18,12 +18,14 @@
 }
 .button
 {
-	color: #4494e5;
 	padding: 10px;
-	border-radius: 20px;
+	border-radius: 50%;
 	background-color: transparent;
-	border-color: transparent;
+	border: 0.5px solid transparent; 
 	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 1.2em;
+	display: inline-block;
 }
 .button:hover
 {
@@ -32,16 +34,28 @@
 #repay
 {
 	position: absolute;
+	font-size: 1.45em;
+	font-weight: normal;
 	top: 50px;
 	left: 40px;
+
 }
 .light
 {
 	color: silver;
 	opacity: 0.6;
+	font-weight: normal;
+	font-size: 1.2em;
 }
 .button:hover
 {
 	background-color: #e5e5e5;
 	opacity: 0.35;
+}
+.active
+{
+	background-color: #f5f7fa;
+	font-size: 1.45em;
+	font-weight: normal;
+	border:.5px solid silver;
 }
