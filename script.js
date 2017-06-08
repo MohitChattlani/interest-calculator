@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	var checkdate=14;
+	$('#drag').draggable({axis:"x",cancel:false,containment:".div"});
 	$('.button').click(function(){
 		$('.button').css('border-color','transparent')
 		$(this).css('border-color','#4494e5');
