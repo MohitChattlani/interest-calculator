@@ -1,9 +1,9 @@
 .div
 {
 	position: absolute;
-	right: 350px;
+	left: 850px;
 	bottom: 80px;
-	width: 25%;
+	width: 390px;
 	height: 600px;
 	background-color: transparent;
 	border:1px solid black;
@@ -16,15 +16,6 @@
 	border:.5px solid silver;
 	width: 25%;
 	height: 400px;
-}
-#drag
-{
-	background-color: #f2f2f2;
-	border-radius: 80%;
-	padding: 13px;
-	height: 50px;
-	width: 55px;
- 	border-color: rgb(199, 205, 213);
 }
 .button
 {
@@ -68,4 +59,22 @@
 	font-size: 1.45em;
 	font-weight: normal;
 	border:.5px solid silver;
+}
+.below
+{
+	position: absolute;
+	bottom: 70px;
+	margin-right: 10px;
+}
+.left
+{
+	left: 20px;
+}
+.centre
+{
+	left: 150px;
+}
+.right
+{
+	left: 300px;
 }
