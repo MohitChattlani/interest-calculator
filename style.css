@@ -2,9 +2,8 @@
 {
 	position: absolute;
 	left: 850px;
-	bottom: 80px;
 	width: 390px;
-	height: 600px;
+	height: 90%;
 	background-color: transparent;
 	border:1px solid black;
 }
@@ -33,15 +32,19 @@
 .button:hover
 {
 	background-color: #e5e5e5;
+	opacity: 0.35;
 }
-#repay
+.repay
 {
 	position: absolute;
-	font-size: 1.45em;
-	font-weight: normal;
 	top: 50px;
 	left: 40px;
-	margin-top: 20px;
+	margin-top: 30px;
+}
+p
+{
+	font-size: 1.2em;
+	font-weight: normal;
 }
 #top
 {
@@ -55,11 +58,6 @@
 	font-weight: normal;
 	font-size: 1.2em;
 }
-.button:hover
-{
-	background-color: #e5e5e5;
-	opacity: 0.35;
-}
 .active
 {
 	background-color: #f5f7fa;
@@ -70,8 +68,10 @@
 .below
 {
 	position: absolute;
-	bottom: 70px;
+	bottom: 110px;
 	margin-right: 10px;
+	font-size: 0.8em;
+	color: #808b9a;
 }
 
 .left
@@ -89,7 +89,28 @@
 .bottom
 {
 	position: absolute;
-	bottom: 45px;
+	bottom: 90px;
 	margin-right: 10px;
+	color: #505d70; 
+	font-weight: bold;
+	font-size: 1.2em;
 }
+.low
+{
+	position: absolute;
+	bottom: 60px;
+	font-weight: normal;
+	font-size: 0.8em;
+	margin-right: 10px;
+	color: #808b9a;
+}
+#apply
+{
+	position: absolute;
+	bottom: 10px;
+	margin: auto;
+	width: 80%;
+	font-weight: bolder;
+	margin-left: 35px;
+	font-size: 1.5em;
 }
