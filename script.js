@@ -15,19 +15,21 @@ $(document).ready(function(){
 		var clickdate=$(this).html();
 		var dateObj = new Date();
 		var day = dateObj.getUTCDate();    //getting currentdate
-		var daysleft=clickdate-day-1;
+		var daysleft;
 		var display="";                    //display string at top 
-		var display2="on ";
-		var display3="for "+daysleft+" days";                //display string at bottom-right 
+		var display2="on "; 
 		if (clickdate>day) {
 			display=display+"<b>"+$(this).val()+', Jun '+clickdate+"</b>";
-			display2=display2+'Jun '+clickdate+",2017";
+			display2=display2+'Jun '+parseInt(clickdate)+",2017";
+			daysleft=clickdate-day-1;
 		}
 		else
 		{
+			daysleft=30-day+parseInt(clickdate)-1;
 			display=display+"<b>"+$(this).val()+', Jul '+clickdate+"</b>";
 			display2=display2+'Jul '+clickdate+",2017";
 		}
+		var display3="for "+daysleft+" days";                //display string at bottom-right
 		$('#repay').html(display);
 		$('#lowright').html(display2);
 		$('#lowleft').html(display3);
