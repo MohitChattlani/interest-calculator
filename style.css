@@ -1,9 +1,9 @@
 .div
 {
 	position: absolute;
-	left: 850px;
-	top: 40px;
-	width: 390px;
+	right: 20%;
+	top: 5%;
+	width: 25%;
 	height: 90%;
 	background-color: transparent;
 	border:1px solid silver;
@@ -11,13 +11,12 @@
 .table2
 {
 	position: absolute;
-	top: 100px;
-	left: 40px;
+	top: 15%;
+	left: 10%;
 	border:.5px solid silver;
 	width: 25%;
-	height: 330px;
-	margin-top: 60px;
-	margin-bottom: 10px;
+	height: 50%;
+	margin-top: 15%;
 }
 .button
 {
@@ -38,9 +37,10 @@
 .repay
 {
 	position: absolute;
-	top: 50px;
-	left: 40px;
-	margin-top: 70px;
+	top: 7%;
+	left: 10%;
+	margin-top: 20%;
+	color: #808b9a;
 }
 p
 {
@@ -69,29 +69,27 @@ p
 .below
 {
 	position: absolute;
-	bottom: 110px;
-	margin-right: 10px;
+	bottom: 20%;
 	font-size: 0.8em;
 	color: #808b9a;
 }
 
 .left
 {
-	left: 50px;
+	left: 15%;
 }
 .centre
 {
-	left: 170px;
+	left: 40%;
 }
 .right
 {
-	left: 300px;
+	left: 65%;
 }
 .bottom
 {
 	position: absolute;
-	bottom: 90px;
-	margin-right: 10px;
+	bottom: 16.5%;
 	color: #505d70; 
 	font-weight: bold;
 	font-size: 1.2em;
@@ -99,20 +97,19 @@ p
 .low
 {
 	position: absolute;
-	bottom: 70px;
+	bottom: 13.5%;
 	font-weight: normal;
 	font-size: 0.76em;
-	margin-right: 10px;
 	color: #808b9a;
 }
 #apply
 {
 	position: absolute;
-	bottom: 10px;
+	bottom: 4.5%;
 	margin: auto;
 	width: 80%;
 	font-weight: bolder;
-	margin-left: 35px;
+	margin-left: 10%;
 	font-size: 1.5em;
 }
 input[type=range] {
